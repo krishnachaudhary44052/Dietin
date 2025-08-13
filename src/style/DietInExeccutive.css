@@ -1,0 +1,63 @@
+.dietin-container {
+  font-family: 'Arial', sans-serif;
+  color: #1b1b1b;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.logo-text .sub {
+  display: block;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.executive-title h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.executive-title .highlight {
+  color: red;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+.stats-row{
+  display: flex;
+  gap: 1rem;
+}
+.stat-box {
+  flex: 1;
+  background-color: #001f4d;
+  color: white;
+  padding: 1.2rem;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+.stat-box:hover{
+  transform: scale(1.05);
+}
+.stat-box span {
+  font-size: 0.9rem;
+  display: block;
+  margin-top: 0.5rem;
+  color: #ffcccb;
+}
+
+.performance-note {
+  font-size: 1.1rem;
+  color: #111;
+  margin-top: 2rem;
+}

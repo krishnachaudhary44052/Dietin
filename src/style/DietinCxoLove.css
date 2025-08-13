@@ -1,0 +1,63 @@
+.cxo-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+.dietin-logo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #002147;
+}
+
+.dietin-logo .sub {
+  font-size: 0.9rem;
+  color: #777;
+  display: block;
+}
+
+.main-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #002147;
+}
+
+.benefits-table {
+  font-size: 1rem;
+}
+
+.impact-box {
+  background-color: #001f4d;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+
+.percent-highlight {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff3b30;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.statement-highlight {
+  color: #ffcccb;
+}
+
+.progress-section .progress-label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.cxo-img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.progress-bar{
+  
+}

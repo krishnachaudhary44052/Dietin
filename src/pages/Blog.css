@@ -1,0 +1,27 @@
+.blog-page {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-section {
+  background: #fff;
+}
+
+.blog-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.card-title {
+  font-size: 1rem;
+  color: #0d3c78;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.card-title:hover {
+  color: #ff6600;
+}

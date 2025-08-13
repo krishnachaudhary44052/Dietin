@@ -1,0 +1,88 @@
+/* Container Styling */
+.container-fluid {
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.main-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #002147;
+}
+
+.main-heading .red {
+  color: #e63946;
+}
+
+/* List Styling */
+.needs-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Highlighted Text */
+.conclusion {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  color: #111;
+}
+
+/* Footer Text */
+.footer-text {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+/* Contact Box */
+.contact-box {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.contact-box a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}
+
+/* Image Styling */
+.corporate-img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+/* Responsive Fix for Small Screens */
+@media (max-width: 767px) {
+  .main-heading {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .needs-list {
+    font-size: 1rem;
+  }
+
+  .footer-text,
+  .conclusion,
+  .contact-box {
+    text-align: center;
+  }
+
+  .corporate-img {
+    margin: 1.5rem auto 0;
+    display: block;
+  }
+}

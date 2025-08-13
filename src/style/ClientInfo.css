@@ -1,0 +1,20 @@
+.client-info {
+  background: linear-gradient(to bottom, #fffdf9, #fff5e9);
+  border-radius: 8px;
+}
+
+.client-info h2 {
+  color: #082c6c;
+}
+
+.info-box {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.info-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}

@@ -1,0 +1,67 @@
+.dietin-promise {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+.logo-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #002147;
+}
+
+.logo-title .sub {
+  font-size: 0.9rem;
+  color: #666;
+  display: block;
+}
+
+.main-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #002147;
+}
+
+.main-heading .highlight {
+  color: #e63946;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.description-list {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  color: #333;
+  font-size: 1rem;
+}
+
+.maintenance-note {
+  background-color: #001f4d;
+  color: white;
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+
+.maintenance-note h5 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.maintenance-note ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+.promise-img {
+    width: 800px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.5s ease-in-out;
+}
+.promise-img:hover{
+  transform: scale(1.05);
+}

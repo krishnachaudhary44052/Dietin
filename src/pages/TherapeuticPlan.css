@@ -1,0 +1,138 @@
+/* Container section */
+.therapeutic-section {
+    background: linear-gradient(to bottom right, #fffef2, #fff3e0);
+    padding: 2rem 1rem;
+    font-family: Arial, sans-serif;
+}
+
+/* Left side image + content */
+.content-box {
+    flex: 1 1 300px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.content-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content-info {
+    background-color: #6B8E23;
+    color: #fff;
+    padding: 1.5rem;
+}
+
+.content-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Right side form */
+.interactive-form {
+    flex: 1 1 400px;
+}
+
+.title-main {
+    color: #1d3557;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.title-highlight {
+    color: #6B8E23;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.price {
+    font-weight: bold;
+    color: #e63946;
+    margin-bottom: 1rem;
+}
+
+.option-section {
+    margin-bottom: 1rem;
+}
+
+.option-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.option-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.option-btn.active {
+    background: #e63946;
+    color: #fff;
+    border: none;
+}
+
+/* FAQ styles */
+.faq-section {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.question {
+    font-weight: bold;
+    margin: 15px 0 5px;
+    cursor: pointer;
+}
+
+.text-overlay {
+    position: relative;
+}
+
+.overlay-heading {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    color: #2900b1;
+    font-weight: bold;
+    font-size: 2.5rem;
+    z-index: 2;
+    border-radius: 0.5rem;
+}
+
+.overlay-heading-plan {
+    position: absolute;
+    margin: 0;
+ 
+    color: #00b11b;
+    font-weight: bold;
+    font-size: 2.5rem;
+    z-index: 2;
+    border-radius: 0.5rem;
+
+}
+
+
+/* Feature grid */
+.features h4 {
+    margin-bottom: 1rem;
+}
+
+.features .fs-3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    color: #f46b45;
+}
+
+.features div {
+    text-align: center;
+}

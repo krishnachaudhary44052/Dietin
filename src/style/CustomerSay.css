@@ -1,0 +1,11 @@
+.testimonial-card {
+  transition: transform 0.4s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateX(10px);
+}
+
+.testimonials-section {
+  background-color: #f9f9f9;
+}

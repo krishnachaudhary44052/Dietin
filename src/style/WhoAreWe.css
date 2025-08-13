@@ -1,0 +1,14 @@
+.who-are-we {
+  background: linear-gradient(90deg, #fdfcfb 20%, #e2d1c3 100%);
+}
+
+.who-text {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.visit-card {
+  background-color: #062a63;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}

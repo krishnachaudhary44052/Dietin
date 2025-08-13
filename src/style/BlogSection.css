@@ -1,0 +1,31 @@
+.blog-section .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.blog-section .card-text {
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+.blog-section .large-img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.blog-section .small-img {
+  height: 150px;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .blog-section .large-img {
+    height: 220px;
+  }
+
+  .blog-section .small-img {
+    height: 140px;
+  }
+}
