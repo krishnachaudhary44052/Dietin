@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import './style/Reel.css';
+import '../style/Reel.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const videoData = [
