@@ -1,0 +1,179 @@
+.hero-section1 {
+    background: radial-gradient(circle at center,
+            #2a5c2a 0%,
+            #102910 80%),
+        url("https://salado.in/wp-content/uploads/2025/01/slide-BG-3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    pointer-events: auto;
+}
+
+
+.sub-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #a9f3a9;
+}
+
+.main-title {
+    font-size: 12vh;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.desc {
+    font-size: 5vh;
+    font-weight: 500;
+}
+
+.salad-img {
+    width: 88vh;
+    max-width: 850vh;
+    padding: 0%;
+    margin: 0%;
+    z-index: 2;
+    position: relative;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    20% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes floatAnim {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-15px) rotate(10deg);
+    }
+
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+.herobtn {
+    width: 20vh;
+    height: 5vh;
+    padding: 8px 12px;
+    font-size: 2.0vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 99;
+}
+
+
+.animate-text {
+    animation: slideIn 12s ease-in-out infinite;
+    animation-duration: 5s;
+}
+
+.animate-pizza {
+
+    animation: bounceIn 12s ease-in-out infinite;
+    animation-duration: 5s;
+}
+
+.floating {
+    position: absolute;
+    width: 50vh;
+    animation: floatAnim 5s ease-in-out infinite;
+}
+
+.leaf {
+    top: 10%;
+    left: 5%;
+}
+
+.tomato {
+    bottom: 5%;
+    right: 10%;
+}
+
+.tomato1 {
+    bottom: 5%;
+    left: 25%;
+    z-index: 1;
+}
+
+.herobtn:hover {
+    background-color: #1b3c1b;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-section1 {
+        padding: 20px;
+        text-align: center;
+        height: auto;
+    }
+
+    .sub-title {
+        font-size: 1rem;
+    }
+
+    .main-title {
+        font-size: 2.6vh;
+    }
+
+    .desc {
+        font-size: 1.5vh;
+    }
+
+    .salad-img {
+        width: 25vh;
+    }
+
+    .herobtn {
+        width: 12vh;
+        height: 2.5vh;
+        font-size: .9vh;
+    }
+
+    .floating {
+        width: 15vh;
+    }
+    
+}

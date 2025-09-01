@@ -1,0 +1,104 @@
+
+.salad-menu-section {
+  position: relative;
+  background: #fff;
+   user-select: none;   
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  pointer-events: auto;
+  
+}
+
+.salad-subtitle {
+  color: #744b26;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+.salad-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1b5e20;
+}
+
+.salad-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.salad-btn {
+  background: #8bc34a!important;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 16px;
+  padding: 10px 25px;
+  transition: 0.3s;
+}
+
+.salad-btn:hover {
+  background: #689f38;
+}
+
+.salad-circle {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.salad-dish {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.salad-spoon {
+  position: absolute;
+  width: 425px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.salad-float {
+  position: absolute;
+  animation: float 5s infinite ease-in-out;
+  opacity: 0.3;
+}
+
+.salad-leaf2 { bottom: 15%; left: 0%; width: 260px; }
+.salad-tomato { bottom: 0%; right: 5%; width: 245px; }
+.salad-broccoli { top: 0%; right: 5%; width: 280px; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+@media screen and (max-width: 768px) {
+  .salad-circle {
+    width: 220px;
+    height: 250px;
+  }
+
+  .salad-dish {
+    width: 70px;
+    height: 70px;
+  }
+
+  .salad-spoon {
+    width: 300px;
+    height: 250px;
+  }
+
+  .salad-leaf2 { width: 220px; }
+  .salad-tomato { width: 200px; }
+  .salad-broccoli { width: 240px; }
+}

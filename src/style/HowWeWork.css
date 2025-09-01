@@ -1,0 +1,70 @@
+.how-we-work {
+  background-color: #fff;
+}
+
+.circle-container {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 10px solid #cfe4cf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-content {
+  text-align: center;
+}
+
+.dietin-logo {
+  font-size: 1.5rem;
+}
+
+.step-number {
+  position: absolute;
+  background-color: #ff5c35;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step1 {
+  top: 6px;
+  left: 15%;
+  transform: translateX(-50%);
+}
+
+.step2 {
+  left: 6px;
+  top: 85%;
+  transform: translateY(-50%);
+}
+
+.step3 {
+  bottom: 20px;
+  left: 89%;
+  transform: translateX(-50%);
+}
+
+.step4 {
+  right: 6px;
+  top: 15%;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 767.98px) {
+  .circle-container {
+    margin: 0 auto 2rem;
+  }
+
+  .step-text {
+    text-align: center !important;
+    padding: 0 !important;
+  }
+}

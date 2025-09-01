@@ -1,0 +1,83 @@
+.credibility-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: #ffffff;
+  color: #333;
+  gap: 50px;
+}
+
+.credibility-text {
+  flex: 1;
+}
+
+
+.credibility-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1d4d2a; 
+}
+
+.credibility-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.credibility-grid {
+  flex: 1.2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.pillar-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pillar-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.pillar-icon {
+  font-size: 2rem;
+  color: #4CAF50; 
+  margin-bottom: 15px;
+}
+
+.pillar-card h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.pillar-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+}
+@media screen and (max-width: 1024px) {
+  .credibility-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .credibility-text, .credibility-grid {
+    width: 100%;
+  }
+
+  .credibility-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+}

@@ -1,0 +1,218 @@
+.hero-section {
+    background: linear-gradient(90deg, #fdfcfb 20%, #ac8e75 100%)!important;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    flex-wrap: nowrap;
+}
+
+.hero-text {
+    flex: 1;
+    z-index: 2;
+}
+
+.hero-text h1 {
+    font-size: clamp(2rem, 6vw, 6.5rem);
+    color: #1f2937;
+    font-weight: bold;
+    line-height: 1.2;
+    animation: slideText 3s ease-out forwards;
+    animation-timing-function: cubic-bezier(0.68, -4.55, 0.27, 1.55);
+}
+
+.highlight {
+    color: #ef4444;
+}
+
+.hero-text p {
+    font-size: clamp(1rem, 3vw, 2rem);
+    color: #16a34a;
+    margin-top: 1rem;
+    animation: slideText 3s ease-out forwards;
+    animation-timing-function: cubic-bezier(0.68, -4.55, 0.27, 1.55);
+}
+
+.consult-button {
+    border-radius: 45px;
+    padding: 0.75rem 2rem;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: transparent;
+    margin-top: 1rem;
+    animation: slideText 3s ease-out forwards;
+    animation-timing-function: cubic-bezier(0.68, -4.55, 0.27, 1.55);
+}
+
+.consult-button:hover {
+    background-color: #ef4444;
+    color: white;
+    border-color: #ef4444;
+}
+
+.hero-image-container {
+    flex: 2;
+    position: relative;
+    text-align: right;
+}
+
+.hero-image {
+    width: clamp(350px, 800px, 800px)!important;
+    height: auto;
+    object-fit: contain;
+    animation: slideImage 3s ease-out forwards;
+    animation-timing-function: cubic-bezier(0.68, -4.55, 0.27, 1.55);
+}
+.floating {
+    position: absolute;
+    border-radius: 50%;
+    animation: bounce 2s infinite;
+    z-index: 0;
+}
+
+.tomato-1 {
+    top: 2rem;
+    right: 2rem;
+    width: 4rem;
+    height: 4rem;
+    background-image: url('./images/tomato.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tomato-2 {
+    top: 5rem;
+    left: -3rem;
+    width: 3rem;
+    height: 3rem;
+    background-image: url('./images/tomato.png');
+    animation-delay: 0.5s;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tomato-3 {
+    bottom: -1.5rem;
+    right: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url('./images/tomato.png');
+    animation-delay: 1s;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-decor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.background-decor img {
+  width: clamp(200px, 150vw, 100px)!important;
+  height: auto;
+  opacity: 0.65; 
+  filter: blur(8px); 
+  animation: spin 20s linear infinite; 
+}
+.img-fluid{
+    max-width: 100%!important;
+    height: auto;
+}
+
+/* Animations */
+@keyframes slideText {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    40% {
+        transform: translateX(10%);
+        opacity: 1;
+    }
+
+    60% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+    80% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideImage {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    40% {
+        transform: translateX(-20%);
+        opacity: 1;
+    }
+
+    60% {
+        transform: translateX(-22%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-25%);
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 991.98px) {
+    .hero-content {
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero-text,
+    .hero-image-container {
+        flex: 1 1 100%;
+        text-align: left;
+        padding: 1rem;
+    }
+    .hero-image-container img{
+        width: 400px;
+        height: auto;
+    }
+    .hero-image-container {
+        text-align: right;
+    }
+   
+}

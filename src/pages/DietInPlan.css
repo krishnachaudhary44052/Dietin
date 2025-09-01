@@ -1,0 +1,49 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.hero {
+  min-height: 80vh;
+  background: linear-gradient(rgba(67, 69, 67, 0.7), rgba(23, 25, 23, 0.7)),
+              url('/images/14.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+.service-card {
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out;
+}
+.service-card:hover {
+  transform: translateY(-4px);
+}
+
+.process .card,
+.freebies .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.process .card:hover,
+.freebies .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.contact a {
+  text-decoration: underline;
+}
+.btn1{
+  background-color: #079d0f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.btn1:hover{
+  background-color: #067a0c;
+}

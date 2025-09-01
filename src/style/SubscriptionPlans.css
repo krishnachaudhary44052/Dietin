@@ -1,0 +1,93 @@
+.subscription-section {
+    background: linear-gradient(to right, #368038, #135017);
+    color: white;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding: 0px 3rem !important;
+}
+
+
+
+.subscription-text h2 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.subscription-text p {
+    font-size: 1rem;
+}
+
+.subscription-form {
+    background: #0d2b0d;
+    border-radius: 20px;
+}
+
+.subscription-form input,
+.subscription-form select {
+    background: transparent;
+    border: 1px solid #4caf50;
+    color: white;
+}
+
+.subscription-form input::placeholder,
+.subscription-form select {
+    color: #bbb;
+}
+
+.subscription-form .btn-success {
+    background: #a6f77b;
+    color: black;
+    font-weight: 600;
+    border: none;
+}
+
+.subscription-form .btn-success:hover {
+    background: #7cd35c;
+}
+
+.btn-light {
+    background-color: #a6f77b;
+    color: black;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-light:hover {
+    background-color: #7cd35c;
+}
+
+.saladsubimg {   
+    max-width: 135%;
+    height: stretch;
+}
+.saladbtn{
+    background-color: #a6f77b;
+    border-radius: 10%;
+    font-weight: 600;
+    font-size: medium;
+    
+}
+@media screen and (max-width: 998px) {
+    .subscription-section {
+        padding: 20px;
+    }
+
+    .subscription-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .subscription-text p {
+        font-size: 0.9rem;
+    }
+
+    .subscription-form {
+        margin-top: 20px;
+    }
+
+    .saladsubimg {
+        display: none;
+    }
+
+}

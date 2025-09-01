@@ -1,0 +1,45 @@
+
+.title {
+  color: #dc3545;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.button-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+}
+
+.button-like {
+  background: linear-gradient(#f4f5f7,#757482,#cac8c8);
+  border-radius: 10px;
+  width: 200px; 
+  min-width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.button-like a {
+  text-decoration: none;
+  color: #121111;
+  display: block;
+}
+
+.button-like h3 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.button-like:hover {
+  transform: translateY(-14px) scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.button-like h3:hover {
+  color: #3c00b3 !important;
+}

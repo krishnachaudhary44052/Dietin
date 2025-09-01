@@ -1,0 +1,32 @@
+.meal-plan-card {
+    background: linear-gradient(to bottom, #0b3d0b, #1b5e20);
+  color: #fff;
+  border-radius: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.meal-plan-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.plan-icon {
+  font-size: 2.5rem;
+  color: #a4d65e;
+}
+
+.plan-ideal {
+  font-size: 1rem;
+  font-style: italic;
+  color: #cfd8c7;
+}
+
+.meal-plan-card ul li {
+  font-size: 1rem;
+  line-height: 2.5;
+}
+.plan-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem;
+}

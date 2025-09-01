@@ -1,0 +1,48 @@
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+}
+
+.container1 img.hero-image1 {
+  width: 100%;
+  height: 80vh;
+  display: block;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4); /* dark transparent layer */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero-overlay1 {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.your-in {
+  bottom: 0;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.health {
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+}

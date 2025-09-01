@@ -1,0 +1,56 @@
+.footer {
+  background-color: #fff;
+}
+
+.footer-brand {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #0d3b66;
+}
+
+.footer-brand .dot {
+  color: #20c997;
+}
+
+.footer-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0d3b66;
+  margin-bottom: 1rem;
+}
+
+.footer-icon {
+  background-color: #0d3b66;
+  color: white;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.footer-icon:hover {
+  background-color: #1a4b80;
+}
+
+.footer a {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.footer a:hover {
+  color: #0d3b66;
+}
+
+.footer-insta {
+  transition: opacity 0.3s ease;
+  object-fit: cover;
+  height: 100%;
+}
+
+.footer-insta:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,65 @@
+.order-section {
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    pointer-events: auto;
+}
+
+.container-fluid{
+    padding: 0%!important;
+}
+
+.order-heading {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #222;
+}
+
+.order-heading .text-success {
+  color: #7cd35c !important;
+}
+
+.orderbtn{
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    background-color: #7cd35c;
+}
+.order-section .orderbtn-success {
+  background-color: #a6f77b;
+  color: black;
+  border: none;
+  font-weight: 600;
+}
+
+.order-section .orederbtn-success:hover {
+  background-color: #7cd35c;
+  color: black;
+}
+
+.order-image {
+    width: 650px;
+  max-width: 40%;
+}
+@media (max-width: 768px) {
+  .order-image {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    display: none;
+  }
+  .orderbtn{
+    margin: 2px;
+  }
+  .order-heading .text-success{
+    font-size: 2.0rem;
+    color: #7cd35c !important;
+  }
+}

@@ -1,0 +1,40 @@
+/* Background gradient */
+.salad-section {
+  background: linear-gradient(to bottom, #0b3d0b, #1b5e20);
+}
+
+/* Subtitle */
+.salad-subtitle {
+  max-width: 700px;
+  font-size: 1.1rem;
+  color: #d1e7dd;
+}
+
+/* Card */
+.salad-card {
+  border: 2px dashed #81c784;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.salad-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Icon */
+.salad-icon {
+  font-size: 2.5rem;
+  color: #81c784;
+}
+
+/* Text */
+.salad-text {
+  color: #d1e7dd;
+  font-size: 0.95rem;
+}
+.salad-title1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #74460f;
+}
