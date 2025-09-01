@@ -3,7 +3,7 @@ import './index.css';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
-import About from './pages/MealPlan2';
+import About from './pages/saladabout';
 import Contact from './pages/Contact';
 import TherapeuticPlan from './pages/TherapeuticPlan';
 import TherapeuticPlan1 from './pages/TherapeuticPlan1';
